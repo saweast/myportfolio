@@ -1,0 +1,116 @@
+body, html, main {
+	/* important */
+	height: 100%;
+}
+.cd-fixed-bg {
+	min-height: 100%;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("/images/coffe.jpeg");
+}
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url("/images/aftersky.jpeg");
+}
+.cd-fixed-bg.cd-bg-3 {
+  background-image: url("/images/workspace.jpeg");
+}
+
+.cd-scrolling-bg {
+	min-height: 100%;
+}
+
+/************************************************/
+body {
+  font-family: Lora, Arial;
+}
+li {
+  list-style: none;
+}
+.row {
+  margin-top: 0;
+  margin-bottom: 0;
+/*  padding: 0;*/
+  position: relative;
+/*  overflow-x: hidden;*/
+}
+.container-fluid {
+	/* important */
+	height: 100%;
+}
+header.row {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  margin: 0;
+  background: rgba(66, 66, 66, 0.7) none repeat scroll 0% 0%;
+  -webkit-box-shadow: 0 0 5px 5px rgba(149, 147, 147, 0.75);
+     -moz-box-shadow: 0 0 5px 5px rgba(149, 147, 147, 0.75);
+          box-shadow: 0 0 5px 5px rgba(149, 147, 147, 0.75);
+  z-index: 1000;
+}
+.logo {
+  height: 100%;
+  font-family: PerMarker, sans-serif;
+}
+.logo a {
+  font-size: 35px;
+  color: #fff;
+}
+.nav {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  text-align: center;
+  font-family: PerMarker, sans-serif;
+}
+.nav li a {
+  color: #fff;
+  font-size: 20px;
+}
+h1 {
+  font-family: PerMarker;
+}
+h2,h3 {
+  font-family: RockSalt;
+}
+.intro {
+  position: absolute;
+  margin-top: 40%;
+  text-align: center;
+  width: 95%;
+}
+.intro h1 {
+  font-size: 60px;
+}
+.intro h2 {
+  font-size: 30px;
+}
+
+.cv {
+/*  margin-top: 150px;*/
+}
+main.row > div:nth-child(2) {
+  height: 400px;
+  min-height: 0;
+}
+.cv span {
+  font-family: PerMarker;
+  color: #bf360c;
+}
+.cv h2 {
+  color: #bf360c;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.cv {
+  font-size: 140%;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
